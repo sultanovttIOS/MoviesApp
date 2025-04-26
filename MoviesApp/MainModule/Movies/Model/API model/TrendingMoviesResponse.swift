@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TrendingMoviesResponse: Codable {
+struct TrendMoviesResponse: Codable {
     let movieResults: [Movie]
     let results: Int
     let totalResults: String
@@ -18,3 +18,4 @@ struct Movie: Codable {
     let year: String
     let imdbId: String
 }
+

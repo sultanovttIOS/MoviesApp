@@ -5,10 +5,10 @@
 //  Created by Alisher Sultanov on 26/4/25.
 //
 
-import UIKit
+import Foundation
 
 protocol NetworkServiceProtocol: Actor {
     
-    func getTrendingMovies(page: String?) async throws -> TrendingMoviesResponse
+    func getTrendingMovies(page: String?) async throws -> TrendMoviesResponse
 
 }
