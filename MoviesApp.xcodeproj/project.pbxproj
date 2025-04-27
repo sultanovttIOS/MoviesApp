@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CE67D1B32DBCD6AD00B3C0E9 /* Exceptions for "MoviesApp" folder in "MoviesApp" target */ = {
+		CE67D1E12DBCDAF700B3C0E9 /* Exceptions for "MoviesApp" folder in "MoviesApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE67D1A32DBCD6AB00B3C0E9 /* MoviesApp */ = {
+		CE67D1DB2DBCDAF700B3C0E9 /* MoviesApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CE67D1B32DBCD6AD00B3C0E9 /* Exceptions for "MoviesApp" folder in "MoviesApp" target */,
+				CE67D1E12DBCDAF700B3C0E9 /* Exceptions for "MoviesApp" folder in "MoviesApp" target */,
 			);
 			path = MoviesApp;
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		CE67D1982DBCD6AB00B3C0E9 = {
 			isa = PBXGroup;
 			children = (
-				CE67D1A32DBCD6AB00B3C0E9 /* MoviesApp */,
+				CE67D1DB2DBCDAF700B3C0E9 /* MoviesApp */,
 				CE67D1A22DBCD6AB00B3C0E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CE67D1A32DBCD6AB00B3C0E9 /* MoviesApp */,
+				CE67D1DB2DBCDAF700B3C0E9 /* MoviesApp */,
 			);
 			name = MoviesApp;
 			packageProductDependencies = (
@@ -148,6 +148,7 @@
 				DEVELOPMENT_TEAM = G5RB9RZVB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoviesApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -180,6 +181,7 @@
 				DEVELOPMENT_TEAM = G5RB9RZVB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MoviesApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
