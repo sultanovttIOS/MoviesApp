@@ -10,5 +10,5 @@ import Foundation
 protocol NetworkServiceProtocol: Actor {
     
     func getTrendingMovies(page: String?) async throws -> TrendMoviesResponse
-
+    func getMovieByID(movieID: String) async throws -> MovieDetails
 }

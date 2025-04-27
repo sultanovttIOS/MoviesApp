@@ -114,21 +114,35 @@ extension TrendMoviesVC: UITableViewDelegate {
     func tableView(
         _ tableView: UITableView,
         didSelectRowAt indexPath: IndexPath) {
+            tableView.deselectRow(at: indexPath, animated: true)
             
             if indexPath.row < model.movies.count {
-                
+                if indexPath.row <= model.movies.count {
+                    let movie = model.movies[indexPath.row]
+                    let vc = DetailVC(
+                        model: DetailsModel(
+                            networkService: NetworkService.shared),
+                        movieID: movie.imdbId)
+                    navigationController?.pushViewController(vc, animated: true)
+                }
             }
         }
     
     func tableView(
         _ tableView: UITableView,
+        didDeselectRowAt indexPath: IndexPath) {
+            
+        }
+    
+    func tableView(
+        _ tableView: UITableView,
         heightForHeaderInSection section: Int) -> CGFloat {
-        return .leastNormalMagnitude
-    }
+            return .leastNormalMagnitude
+        }
     
     func tableView(
         _ tableView: UITableView,
         viewForHeaderInSection section: Int) -> UIView? {
-        return UIView()
-    }
+            return UIView()
+        }
 }
