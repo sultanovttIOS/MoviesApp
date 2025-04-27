@@ -42,9 +42,7 @@ actor NetworkService: NetworkServiceProtocol {
         subsystem: Bundle.main.bundleIdentifier ?? "",
         category: String(describing: NetworkService.self)
     )
-    
-    private let imageCache = NSCache<NSString, CacheImageObject>()
-    
+        
     private let baseURL = "https://movies-tv-shows-database.p.rapidapi.com/"
     private let apiKey = "f65c058536msh19c7f06e4be12a0p1a4907jsn4dab539d8e46"
     private let apiHost = "movies-tv-shows-database.p.rapidapi.com"
