@@ -15,8 +15,6 @@ final class TrendMoviesView: UIView {
         let view = UITableView(frame: .zero, style: .grouped)
         view.backgroundColor = .systemBackground
         view.isScrollEnabled = true
-//        view.separatorStyle = .none
-//        view.isUserInteractionEnabled = false
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
